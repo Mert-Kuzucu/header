@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: aqua
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header{
+    background-color: cyan;
+    color: black;
+}
+
+footer{
+    text-align: right;
+    color: black;
+}
